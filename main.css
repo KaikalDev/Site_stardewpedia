@@ -1,0 +1,171 @@
+@font-face{
+    font-family: StardewValley;
+
+    src: url("/fonte/svboldhu.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Imagens/stardew.png);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header {
+    padding: 16px 0;
+    color: #000000;
+    background-color: #ffffff91;
+}
+header h1 {
+    font-size: 48px;
+    font-family: "StardewValley", sans-serif;
+    font-weight: normal;
+    
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+header nav li a{
+    color: #000000; 
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo_stardew{
+    height: 400px;
+    border: 3px solid black;
+}
+
+section {
+    padding: 24px 0;
+}
+section h2{
+    padding: 8px;
+}
+section p{
+    padding: 8px;
+}
+
+section{
+    color: #000000;   
+}
+
+section .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #ffffff91;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.logo_empresas img{
+    height: 20px;
+}
+
+.logo_empresas li {
+    display: inline;
+    margin: 3px;
+}
+
+.logo_empresas li a{
+    text-decoration: none;
+}
+
+.logo_empresas label {
+    display: inline;
+    margin: 5px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.logo_empresas li button {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo_empresas li button:hover {
+    text-decoration: underline;
+}
+
+.Introducao h2,
+.logo_empresas h2,
+.stardew_news h2,
+.stardew_news h3{
+    font-family: "StardewValley", sans-serif;
+    font-weight: normal;
+}
+
+.stardew_news h3{
+    font-size: 20px;
+}
+
+.stardew_news h2{
+    font-size: 30px;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #274494;
+}
+
+input:focus{
+    outline-color: #182c61;
+}
+
+.checkbox{
+    display: flex;
+    font-family: "StardewValley", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.checkbox input{
+    width: 20px;
+}
+
+footer{
+    background-color: #ffffff91;
+    color: #000000;
+    padding: 16px 0;
+}
